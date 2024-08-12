@@ -11,10 +11,10 @@ body {
 }
 
 #generate-joke-button {
-  background-color: #007bff;
+  background-color: #00addb;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -23,7 +23,7 @@ body {
 }
 
 #generate-joke-button:hover {
-  background-color: #0056b3;
+  background-color: #f9c700;
 }
 
 #generate-joke-button:disabled {
@@ -33,7 +33,7 @@ body {
 
 #joke {
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 0.5px solid #00addb;
   border-radius: 5px;
   padding: 20px;
   max-width: 500px;
