@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #a8a8a8;
+  background-color: #ee6c4d;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +12,7 @@ body {
 }
 
 #generate-joke-button {
-  background-color: #00addb;
+  background-color: #293241;
   color: #fff;
   border: none;
   border-radius: 20px;
@@ -24,7 +24,7 @@ body {
 }
 
 #generate-joke-button:hover {
-  background-color: #f9c700;
+  background-color: #293241;
   transform: scale(1.1);
 }
 
@@ -35,7 +35,7 @@ body {
 
 #joke {
   background-color: #fff;
-  border: 0.5px solid #00addb;
+  border: 0.5px solid #293241;
   border-radius: 5px;
   padding: 20px;
   max-width: 500px;
@@ -45,6 +45,13 @@ body {
   font-size: 18px;
   opacity: 0;
   animation: slideIn 0.5s ease-in-out forwards;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+  animation: slideUp 1.5s ease-in-out;
 }
 
 @keyframes fadeIn {
