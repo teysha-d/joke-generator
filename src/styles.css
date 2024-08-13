@@ -11,6 +11,13 @@ body {
   animation: fadeIn 1s ease-in-out;
 }
 
+.container {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 600px;
+  animation: fadeIn 1s ease-in-out;
+}
+
 #generate-joke-button {
   background-color: #293241;
   color: #fff;
@@ -50,8 +57,18 @@ body {
 footer {
   text-align: center;
   font-size: 13px;
-  margin-top: 30px;
+  margin-top: 10px;
   animation: slideUp 1.5s ease-in-out;
+  font-size: 15px;
+  color: #293241;
+}
+
+a {
+  color: #293241;
+}
+
+a:hover {
+  color: white;
 }
 
 @keyframes fadeIn {
